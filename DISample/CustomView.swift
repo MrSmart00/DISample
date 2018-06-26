@@ -23,7 +23,7 @@ class CustomView: UIView {
         button = UIButton(type: .custom)
         super.init(coder: aDecoder)
         label.frame = CGRect(x: 5, y: 5, width: 100, height: 25)
-        button.frame = CGRect(x: 5, y: 5, width: 100, height: 25)
+        button.frame = CGRect(x: 5, y: 5, width: frame.size.width - 10, height: frame.size.height - 10)
         button.addTarget(self, action: #selector(tappedButton(sender:)), for: .touchUpInside)
         addSubview(label)
         addSubview(button)
