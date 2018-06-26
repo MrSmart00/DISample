@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var customView: CustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let data = CustomData(text: "TESTTEST")
+        customView.data = data
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -14,6 +14,8 @@
 		C5972B7120E1EBBB006ACDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5972B6F20E1EBBB006ACDBD /* LaunchScreen.storyboard */; };
 		C5972B7C20E1EBBB006ACDBD /* DISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B7B20E1EBBB006ACDBD /* DISampleTests.swift */; };
 		C5972B8720E1EBBB006ACDBD /* DISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B8620E1EBBB006ACDBD /* DISampleUITests.swift */; };
+		C5972B9520E20F36006ACDBD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B9420E20F36006ACDBD /* CustomView.swift */; };
+		C5972B9920E21D04006ACDBD /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B9820E21D04006ACDBD /* CustomData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C5972B8220E1EBBB006ACDBD /* DISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5972B8620E1EBBB006ACDBD /* DISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DISampleUITests.swift; sourceTree = "<group>"; };
 		C5972B8820E1EBBB006ACDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5972B9420E20F36006ACDBD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		C5972B9820E21D04006ACDBD /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C5972B6D20E1EBBB006ACDBD /* Assets.xcassets */,
 				C5972B6F20E1EBBB006ACDBD /* LaunchScreen.storyboard */,
 				C5972B7220E1EBBB006ACDBD /* Info.plist */,
+				C5972B9420E20F36006ACDBD /* CustomView.swift */,
+				C5972B9820E21D04006ACDBD /* CustomData.swift */,
 			);
 			path = DISample;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5972B9920E21D04006ACDBD /* CustomData.swift in Sources */,
+				C5972B9520E20F36006ACDBD /* CustomView.swift in Sources */,
 				C5972B6920E1EBBA006ACDBD /* ViewController.swift in Sources */,
 				C5972B6720E1EBBA006ACDBD /* AppDelegate.swift in Sources */,
 			);
