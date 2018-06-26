@@ -1,5 +1,5 @@
 //
-//  CustomData.swift
+//  DataProtocol.swift
 //  DISample
 //
 //  Created by HINOMORI HIROYA on 2018/06/26.
@@ -8,11 +8,10 @@
 
 import Foundation
 
-struct CustomData: DataProtocol {
-
-    var text: String
+protocol DataProtocol {
     
-    func output() {
-        print("YEAH!!")
-    }
+    var text: String { get set }
+    
+    func output()
+    
 }

@@ -12,7 +12,7 @@ class CustomView: UIView {
 
     let label: UILabel
     let button: UIButton
-    var data: CustomData? {
+    var data: DataProtocol? {
         didSet {
             label.text = data?.text
         }

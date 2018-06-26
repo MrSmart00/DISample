@@ -16,6 +16,7 @@
 		C5972B8720E1EBBB006ACDBD /* DISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B8620E1EBBB006ACDBD /* DISampleUITests.swift */; };
 		C5972B9520E20F36006ACDBD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B9420E20F36006ACDBD /* CustomView.swift */; };
 		C5972B9920E21D04006ACDBD /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B9820E21D04006ACDBD /* CustomData.swift */; };
+		C5972B9B20E22323006ACDBD /* DataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5972B9A20E22323006ACDBD /* DataProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C5972B8820E1EBBB006ACDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5972B9420E20F36006ACDBD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		C5972B9820E21D04006ACDBD /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		C5972B9A20E22323006ACDBD /* DataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				C5972B7220E1EBBB006ACDBD /* Info.plist */,
 				C5972B9420E20F36006ACDBD /* CustomView.swift */,
 				C5972B9820E21D04006ACDBD /* CustomData.swift */,
+				C5972B9A20E22323006ACDBD /* DataProtocol.swift */,
 			);
 			path = DISample;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5972B9920E21D04006ACDBD /* CustomData.swift in Sources */,
+				C5972B9B20E22323006ACDBD /* DataProtocol.swift in Sources */,
 				C5972B9520E20F36006ACDBD /* CustomView.swift in Sources */,
 				C5972B6920E1EBBA006ACDBD /* ViewController.swift in Sources */,
 				C5972B6720E1EBBA006ACDBD /* AppDelegate.swift in Sources */,
